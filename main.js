@@ -1,8 +1,8 @@
 const form = document.getElementById('form-compara')
 
 
-function validaNumero(primeiroCampo, segundoCampo) {
-    const compara = primeiroCampo > segundoCampo
+function validaNumero(numeroMaior, segundoCampo) {
+    const compara = numeroMaior > segundoCampo
         return compara
 }
 
@@ -13,10 +13,10 @@ form.addEventListener('submit', function (e) {
     e.preventDefault();
 
 
-    const primeiroCampo = document.getElementById('numero-a');
-    const segundoCampo = document.getElementById('numero-b');
+    const primeiroCampo = document.getElementById('numeroA');
+    const segundoCampo = document.getElementById('numeroB');
 
-    const mensagemSucesso = `O ${numero-b.value} é maior que o ${numero-a.value}!`;
+    const mensagemSucesso = `O número ${numeroB.value} é maior que o número ${numeroA.value}!`;
 
     formEValido = (validaNumero(primeiroCampo.value) == true)
     if (formEValido) {
