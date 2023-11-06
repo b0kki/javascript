@@ -21,5 +21,4 @@ form.addEventListener('submit', function (e) {
     corpoTabela.innerHTML = linha;
     // insere o conteúdo dentro da tag
 
-    
 });
