@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -19,7 +18,7 @@
             <input type="number" id="nota-atividade" placeholder="Nota" max="10" min="0" required>
             <button type="submit">Adicionar +</button>
         </form>
-        <table cellspacing="0">
+        <table cellspacing = "0">
             <thead>
                 <tr>
                     <th>Atividade</th>
@@ -28,17 +27,12 @@
                 </tr>
             </thead>
             <tbody>
-                <tr>
-                    <td>Atividade A</td>
-                    <td>Nota</td>
-                    <td><img src="./imagem/aprovado.png" alt="emoji comemorando"></td>
-                </tr>
             </tbody>
             <tfoot>
                 <tr>
                     <td>Média Final</td>
-                    <td>7</td>
-                    <td><span class="resultado aprovado">Aprovado!</span></td>
+                    <td id='media-final-valor'>-</td>
+                    <td id='media-final-resultado'>-</td>
                 </tr>
             </tfoot>
         </table>
