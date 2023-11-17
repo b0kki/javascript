@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.container {
+    max-width: 860px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+body {
+    padding-top: 100px;
+}
+
+form {
+    display: flex;
+}
+
+form input, button {
+    padding: 8px;
+    border: none;
+    display: block;
+    width: 100%;
+}
+
+form input {
+    border-bottom: 2px solid midnightblue;
+    font-size: 18px;
+}
+
+form button {
+    padding: 8px;
+    text-align: center;
+    width: 40%;
+    border: none;
+    background-color: midnightblue;
+    color: aliceblue;
+    font-size: 18px;
+}
+
+header {
+    margin-bottom: 50px;
+    color: midnightblue;
+    text-align: center;
+}
+
+table {
+    width: 100%;
+}
+
+tbody td {
+    width: 100%;
+    text-align: center;
+    display:block;
+    padding-top: 30px;
+    font-size: 18px;
+}
