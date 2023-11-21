@@ -14,8 +14,8 @@ $(document).ready(function (e) {
     })
 
 
-    $('ul').click(function () {
-        $('#item').css("text-decoration: line-through");
+    $('ul').click("li", function () {
+        $(this).css('text-decoration', 'line-through');
     });
     
 });
