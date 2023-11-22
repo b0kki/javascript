@@ -13,9 +13,10 @@ $(document).ready(function (e) {
 
     })
 
-
-    $('ul').click("li", function () {
+    //quando o cliente clicar na linha da lista
+    $('ul').on("click", "li", function () {
+        //pega a linha (representado pelo this) e coloca um css
         $(this).css('text-decoration', 'line-through');
     });
-    
+
 });
