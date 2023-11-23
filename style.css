@@ -30,14 +30,22 @@ form textarea {
     height: 80px;
 }
 
-form input, 
+form input:focus {
+    border-color: rgb(15, 15, 218);
+}
+
+form input,
 form textarea,
-button{
+button {
     padding: 8px;
     font-size: 18px;
     margin-bottom: 12px;
     display: block;
     width: 100%;
+}
+
+form label {
+    font-size: 18px;
 }
 
 form button {
@@ -46,4 +54,13 @@ form button {
     color: snow;
     border: none;
     border-radius: 8px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: rgb(53, 53, 167);
+}
+
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
 }
