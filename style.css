@@ -1,0 +1,29 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    overflow-x: hidden;
+}
+
+.container h2 {
+    margin-top: 100px;
+    text-align: center;
+}
+
+.container form {
+    max-width: 600px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+form input {
+    margin: 10px 0;
+}
+
+.container button {
+    margin: 20px 0;
+}
