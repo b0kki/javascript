@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"><link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Neucha&family=ZCOOL+KuaiLe&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="lib/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Raven</title>
+</head>
+
+<body>
+    <header id="cabecalho">
+        <div class="navbar navbar-expand-lg">
+            <img src="./images/raven.png" alt="Raven">
+            <h1>Raven</h1>
+            <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="collapse navbar-collapse justify-content-end" id="menu">
+                <ul class="nav navbar-nav nav-pills">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#noticias">Últimas notícias</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#recomendados">Recomendados</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#descontos">Descontos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#sobre">Sobre</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="container" id="noticias">
+        <div id="carousel" class="carousel carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div data-bs-interval="3000" class="carousel-item active">
+                    <img src="images/gta-vi.png">
+                    <div class="carousel-caption">
+                        <h2>GTA VI: veja tudo que você perdeu no trailer aqui!</h2>
+                    </div>
+                </div>
+                <div data-bs-interval="3000" class="carousel-item">
+                    <img src="images/TGA.png">
+                    <div class="carousel-caption">
+                        <h2>Melhores momentos do The Game Awards 2023</h2>
+                    </div>
+                </div>
+                <div data-bs-interval="3000" class="carousel-item">
+                    <img src="images/senua2.jpg">
+                    <div class="carousel-caption">
+                        <h2>Novo trailer de Senua's Saga II</h2>
+                    </div>
+                </div>
+            </div>
+            <button data-bs-target="#carousel" data-bs-slide="prev" class="carousel-control-prev" type="button">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button data-bs-target="#carousel" data-bs-slide="next" class="carousel-control-next" type="button">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carousel" class="active" data-bs-slide-to="0"></button>
+                <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+            </div>
+        </div>
+
+
+            <div class="row">
+                <div class="col-3">
+                    <div class="card text-bg-dark">
+                        <header class="card-header">Grand Theft Auto VI</header>
+                        <img src="images/news5.png" alt="GTA VI Trailer">
+                        <div class="card-body">
+                            <h4 class="card-title">O primeiro trailer de GTA 6 foi lançado mais cedo e
+                                chega em 2025</h4>
+                            <p class="card-text">
+                                Depois de uma longa espera de 3.156 dias desde que Grand Theft Auto 5 apareceu pela
+                                primeira
+                                vez no PC, o trailer de Grand Theft Auto 6 finalmente chegou um dia antes, após um
+                                vazamento.<br />
+                                <a href="https://www.youtube.com/watch?v=QdBZY2fkU-0">Confira o trailer aqui.</a>
+                            </p>
+                        </div>
+                        <footer class="card-footer">
+                            Postado em <time>08/12/2023 às 03:28</time>
+                        </footer>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="card text-bg-dark">
+                        <header class="card-header">Kojima lança OD no TGA</header>
+                        <img src="images/news2.jpg" alt="Kojima lança OD no TGA">
+                        <div class="card-body">
+                            <h4 class="card-title">Kojima apresenta teaser de OD no The Game Awards</h4>
+                            <p class="card-text">
+                                O futuro título OD terá um elenco composto por estrelas como Sophia Lillis (It), Udo
+                                Kier
+                                (Swan Song) e Hunter Schafer (Euphoria), além de ser produzido em parceria com o
+                                cineasta
+                                Jordan Peele (Corra!)
+                                <a href="#">Ler mais</a>
+                        </div>
+                        <footer class="card-footer">
+                            Postado em <time>08/12/2023 às 07:57</time>
+                        </footer>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="card text-bg-dark">
+                        <header class="card-header">GOTY 2023</header>
+                        <img src="images/news1.png" alt="Baldur's Gate 3 GOTY">
+                        <div class="card-body">
+                            <h4 class="card-title">Baldur's Gate 3 leva Game Of The Year</h4>
+                            <p class="card-text">
+                                O RPG da Larian Studios foi nomeado o GOTY após quebrar a barreira do CRPG,
+                                gênero
+                                de nicho, mas ignorou
+                                todas as barreiras invisíveis que
+                                existiam até hoje e abraçou todos os tipos de jogadores. <br />
+                                <a href="#">Ler mais</a>
+                        </div>
+                        <footer class="card-footer">
+                            Postado em <time>08/12/2023 às 04:13</time>
+                        </footer>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="card text-bg-dark">
+                        <header class="card-header">EXODUS lança o primeiro trailer</header>
+                        <img src="images/news8.jpg" alt="Matthew McConaughey no TGA">
+                        <div class="card-body">
+                            <h4 class="card-title">Matthew McConaughey apresenta Exodus, novo jogo espacial da
+                                Archetype Studios</h4>
+                            <p class="card-text">
+                                Durante o The Game Awards de 2023, o ator Matthew McConaughey apresentou o novo game
+                                espacial da Archetype Studios, Exodus. Seu discurso deu a entender que seria algo
+                                parecido com o filme de Christopher Nolan, Interstelar, que estrelou em 2014.
+                                <a href="#">Ler mais</a>
+                        </div>
+                        <footer class="card-footer">
+                            Postado em <time>08/12/2023 às 05:28</time>
+                        </footer>
+                    </div>
+                </div>
+            </div>
+
+
+        <section id="recomendados">
+            <article>
+                <div class="news">
+                    <img src="images/news4.jpg" alt="Indie games 2023">
+                    <h3>64 jogos Indie que você deveria estar jogando em 2023</h3>
+                    <p>
+                        A cena indie é a espinha dorsal da indústria moderna de jogos e a colmeia de ideias que
+                        alimenta a direção futura que impulsiona a cena AAA. Com tantos jogos excepcionais
+                        disponíveis no cenário indie, tentamos a desafiadora tarefa de reduzir essa lista a apenas
+                        45 dos melhores indies que você precisa para jogar em 2023!
+                        <a href="#">Ler mais.</a>
+                    </p>
+                </div>
+            </article>
+            <article>
+                <div class="news">
+                    <img src="images/news7.jpg" alt="Monster Hunter Wilds">
+                    <h3>Monster Hunter Wilds anunciado para 2025 e parece uma continuação do World</h3>
+                    <p>
+                        Monster Hunter Wilds foi a grande estreia final no 2023 Game Awards, com o trailer acima
+                        confirmando a data de lançamento em 2025. Ainda falta um pouco, e também demorará um pouco
+                        antes de termos mais detalhes sobre a continuação de Monster Hunter World: o produtor da
+                        série Ryozo Tsujimoto disse no palco que a Capcom não mostrará mais nada até dezembro de
+                        2024.
+                        <a href="#">Ler mais</a>
+                    </p>
+                </div>
+            </article>
+            <article>
+                <div class="news">
+                    <img src="images/news6.jpg" alt="Light No Fire">
+                    <h3>O desenvolvedor de No Man's Sky está prestes a cometer os mesmos erros desastrosos
+                        novamente?</h3>
+                    <p>
+                        Com seu novo jogo, Hello Games promete literalmente o mundo.
+                        Foi exatamente há 10 anos que a Hello Games anunciou pela primeira vez o projeto que o
+                        catapultou para enorme atenção do grande público: No Man's Sky. Chamar a década seguinte de
+                        turbulenta para o estúdio seria um eufemismo.
+                        <a href="#">Ler mais</a>
+                    </p>
+                </div>
+            </article>
+        </section>
+        <section id="descontos" class="descontos">
+            <article>
+                <img src="images/desconto1.jpg" alt="Desconto GTA V">
+                <div class="news">
+                    <h3>Grand Theft Auto V: Premium Edition</h3>
+                    <strong>-78%</strong>
+                    <div class="preco">
+                        <h5>R$ 23,90</h5>
+                        <del>R$ 109,00</del>
+                    </div>
+                    <button class="btn btn-primary">Comprar</button>
+                </div>
+            </article>
+            <article>
+                <img src="images/desconto2.jpg" alt="Desconto INSIDE">
+                <div class="news">
+                    <h3>INSIDE</h3>
+                    <strong>-90%</strong>
+                    <div class="preco">
+                        <h5>R$ 7,40</h5>
+                        <del>R$ 74,00</del>
+                    </div>
+                    <button class="btn btn-primary">Comprar</button>
+                </div>
+            </article>
+            <article>
+                <img src="images/desconto3.jpg" alt="Desconto Inscryption">
+                <div class="news">
+                    <h3>Inscryption</h3>
+                    <strong>-50%</strong>
+                    <div class="preco">
+                        <h5>R$ 87,90</h5>
+                        <del>R$ 38,50</del>
+                    </div>
+                    <button class="btn btn-primary">Comprar</button>
+                </div>
+            </article>
+        </section>
+    </div>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 Todos os direitos reservados </p>
+        </div>
+    </footer>
+
+    <script src="lib/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

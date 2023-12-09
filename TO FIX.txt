@@ -1,0 +1,7 @@
+## BUGS:
+
+
+- imagem não centralizada no carousel
+- destaque do menu <li> não funciona
+- parar na seção certa ao clicar no menu <li>
+- header dos cards sobrepondo header
