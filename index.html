@@ -3,7 +3,8 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"><link rel="preconnect" href="https://fonts.googleapis.com">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Neucha&family=ZCOOL+KuaiLe&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="lib/bootstrap.min.css">
@@ -19,8 +20,8 @@
             <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <nav class="collapse navbar-collapse justify-content-end" id="menu">
-                <ul class="nav navbar-nav nav-pills">
+            <nav class="navbar-collapse collapse justify-content-end" id="menu">
+                <ul class="nav nav-pills">
                     <li class="nav-item">
                         <a class="nav-link active" href="#noticias">Últimas notícias</a>
                     </li>
@@ -31,46 +32,48 @@
                         <a class="nav-link" href="#descontos">Descontos</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#sobre">Sobre</a>
+                        <a class="nav-link" href="#contato">Fale conosco</a>
                     </li>
                 </ul>
             </nav>
         </div>
     </header>
-    <div class="container" id="noticias">
-        <div id="carousel" class="carousel carousel slide" data-bs-ride="carousel">
-            <div class="carousel-inner">
-                <div data-bs-interval="3000" class="carousel-item active">
-                    <img src="images/gta-vi.png">
-                    <div class="carousel-caption">
-                        <h2>GTA VI: veja tudo que você perdeu no trailer aqui!</h2>
+
+    <div data-bs-spy="scroll" data-bs-target="cabecalho" data-bs-smooth-scroll="true">
+        <div class="container" id="noticias">
+            <div id="carousel" class="carousel carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div data-bs-interval="3000" class="carousel-item active">
+                        <img src="images/gta-vi.png">
+                        <div class="carousel-caption">
+                            <h2>GTA VI: veja tudo que você perdeu no trailer aqui!</h2>
+                        </div>
+                    </div>
+                    <div data-bs-interval="3000" class="carousel-item">
+                        <img src="images/TGA.png">
+                        <div class="carousel-caption">
+                            <h2>Melhores momentos do The Game Awards 2023</h2>
+                        </div>
+                    </div>
+                    <div data-bs-interval="3000" class="carousel-item">
+                        <img src="images/senua2.jpg">
+                        <div class="carousel-caption">
+                            <h2>Novo trailer de Senua's Saga II</h2>
+                        </div>
                     </div>
                 </div>
-                <div data-bs-interval="3000" class="carousel-item">
-                    <img src="images/TGA.png">
-                    <div class="carousel-caption">
-                        <h2>Melhores momentos do The Game Awards 2023</h2>
-                    </div>
-                </div>
-                <div data-bs-interval="3000" class="carousel-item">
-                    <img src="images/senua2.jpg">
-                    <div class="carousel-caption">
-                        <h2>Novo trailer de Senua's Saga II</h2>
-                    </div>
+                <button data-bs-target="#carousel" data-bs-slide="prev" class="carousel-control-prev" type="button">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button data-bs-target="#carousel" data-bs-slide="next" class="carousel-control-next" type="button">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carousel" class="active" data-bs-slide-to="0"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
                 </div>
             </div>
-            <button data-bs-target="#carousel" data-bs-slide="prev" class="carousel-control-prev" type="button">
-                <span class="carousel-control-prev-icon"></span>
-            </button>
-            <button data-bs-target="#carousel" data-bs-slide="next" class="carousel-control-next" type="button">
-                <span class="carousel-control-next-icon"></span>
-            </button>
-            <div class="carousel-indicators">
-                <button type="button" data-bs-target="#carousel" class="active" data-bs-slide-to="0"></button>
-                <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
-                <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
-            </div>
-        </div>
 
 
             <div class="row">
@@ -153,89 +156,127 @@
             </div>
 
 
-        <section id="recomendados">
-            <article>
-                <div class="news">
-                    <img src="images/news4.jpg" alt="Indie games 2023">
-                    <h3>64 jogos Indie que você deveria estar jogando em 2023</h3>
-                    <p>
-                        A cena indie é a espinha dorsal da indústria moderna de jogos e a colmeia de ideias que
-                        alimenta a direção futura que impulsiona a cena AAA. Com tantos jogos excepcionais
-                        disponíveis no cenário indie, tentamos a desafiadora tarefa de reduzir essa lista a apenas
-                        45 dos melhores indies que você precisa para jogar em 2023!
-                        <a href="#">Ler mais.</a>
-                    </p>
-                </div>
-            </article>
-            <article>
-                <div class="news">
-                    <img src="images/news7.jpg" alt="Monster Hunter Wilds">
-                    <h3>Monster Hunter Wilds anunciado para 2025 e parece uma continuação do World</h3>
-                    <p>
-                        Monster Hunter Wilds foi a grande estreia final no 2023 Game Awards, com o trailer acima
-                        confirmando a data de lançamento em 2025. Ainda falta um pouco, e também demorará um pouco
-                        antes de termos mais detalhes sobre a continuação de Monster Hunter World: o produtor da
-                        série Ryozo Tsujimoto disse no palco que a Capcom não mostrará mais nada até dezembro de
-                        2024.
-                        <a href="#">Ler mais</a>
-                    </p>
-                </div>
-            </article>
-            <article>
-                <div class="news">
-                    <img src="images/news6.jpg" alt="Light No Fire">
-                    <h3>O desenvolvedor de No Man's Sky está prestes a cometer os mesmos erros desastrosos
-                        novamente?</h3>
-                    <p>
-                        Com seu novo jogo, Hello Games promete literalmente o mundo.
-                        Foi exatamente há 10 anos que a Hello Games anunciou pela primeira vez o projeto que o
-                        catapultou para enorme atenção do grande público: No Man's Sky. Chamar a década seguinte de
-                        turbulenta para o estúdio seria um eufemismo.
-                        <a href="#">Ler mais</a>
-                    </p>
-                </div>
-            </article>
-        </section>
-        <section id="descontos" class="descontos">
-            <article>
-                <img src="images/desconto1.jpg" alt="Desconto GTA V">
-                <div class="news">
-                    <h3>Grand Theft Auto V: Premium Edition</h3>
-                    <strong>-78%</strong>
-                    <div class="preco">
-                        <h5>R$ 23,90</h5>
-                        <del>R$ 109,00</del>
+            <section id="recomendados">
+                <article>
+                    <div class="news">
+                        <img src="images/news4.jpg" alt="Indie games 2023">
+                        <h3>64 jogos Indie que você deveria estar jogando em 2023</h3>
+                        <p>
+                            A cena indie é a espinha dorsal da indústria moderna de jogos e a colmeia de ideias que
+                            alimenta a direção futura que impulsiona a cena AAA. Com tantos jogos excepcionais
+                            disponíveis no cenário indie, tentamos a desafiadora tarefa de reduzir essa lista a apenas
+                            45 dos melhores indies que você precisa para jogar em 2023!
+                            <a href="#">Ler mais.</a>
+                        </p>
                     </div>
-                    <button class="btn btn-primary">Comprar</button>
-                </div>
-            </article>
-            <article>
-                <img src="images/desconto2.jpg" alt="Desconto INSIDE">
-                <div class="news">
-                    <h3>INSIDE</h3>
-                    <strong>-90%</strong>
-                    <div class="preco">
-                        <h5>R$ 7,40</h5>
-                        <del>R$ 74,00</del>
+                </article>
+                <article>
+                    <div class="news">
+                        <img src="images/news7.jpg" alt="Monster Hunter Wilds">
+                        <h3>Monster Hunter Wilds anunciado para 2025 e parece uma continuação do World</h3>
+                        <p>
+                            Monster Hunter Wilds foi a grande estreia final no 2023 Game Awards, com o trailer acima
+                            confirmando a data de lançamento em 2025. Ainda falta um pouco, e também demorará um pouco
+                            antes de termos mais detalhes sobre a continuação de Monster Hunter World: o produtor da
+                            série Ryozo Tsujimoto disse no palco que a Capcom não mostrará mais nada até dezembro de
+                            2024.
+                            <a href="#">Ler mais</a>
+                        </p>
                     </div>
-                    <button class="btn btn-primary">Comprar</button>
-                </div>
-            </article>
-            <article>
-                <img src="images/desconto3.jpg" alt="Desconto Inscryption">
-                <div class="news">
-                    <h3>Inscryption</h3>
-                    <strong>-50%</strong>
-                    <div class="preco">
-                        <h5>R$ 87,90</h5>
-                        <del>R$ 38,50</del>
+                </article>
+                <article>
+                    <div class="news">
+                        <img src="images/news6.jpg" alt="Light No Fire">
+                        <h3>O desenvolvedor de No Man's Sky está prestes a cometer os mesmos erros desastrosos
+                            novamente?</h3>
+                        <p>
+                            Com seu novo jogo, Hello Games promete literalmente o mundo.
+                            Foi exatamente há 10 anos que a Hello Games anunciou pela primeira vez o projeto que o
+                            catapultou para enorme atenção do grande público: No Man's Sky. Chamar a década seguinte de
+                            turbulenta para o estúdio seria um eufemismo.
+                            <a href="#">Ler mais</a>
+                        </p>
                     </div>
-                    <button class="btn btn-primary">Comprar</button>
+                </article>
+            </section>
+            <section id="descontos" class="descontos">
+                <article>
+                    <img src="images/desconto1.jpg" alt="Desconto GTA V">
+                    <div class="news">
+                        <h3>Grand Theft Auto V: Premium Edition</h3>
+                        <strong>-78%</strong>
+                        <div class="preco">
+                            <h5>R$ 23,90</h5>
+                            <del>R$ 109,00</del>
+                        </div>
+                        <button class="btn btn-primary">Comprar</button>
+                    </div>
+                </article>
+                <article>
+                    <img src="images/desconto2.jpg" alt="Desconto INSIDE">
+                    <div class="news">
+                        <h3>INSIDE</h3>
+                        <strong>-90%</strong>
+                        <div class="preco">
+                            <h5>R$ 7,40</h5>
+                            <del>R$ 74,00</del>
+                        </div>
+                        <button class="btn btn-primary">Comprar</button>
+                    </div>
+                </article>
+                <article>
+                    <img src="images/desconto3.jpg" alt="Desconto Inscryption">
+                    <div class="news">
+                        <h3>Inscryption</h3>
+                        <strong>-50%</strong>
+                        <div class="preco">
+                            <h5>R$ 87,90</h5>
+                            <del>R$ 38,50</del>
+                        </div>
+                        <button class="btn btn-primary">Comprar</button>
+                    </div>
+                </article>
+            </section>
+            <section id="contato" class="pt-5 pb-5">
+                <div class="container">
+                    <h2 class="section-title text-center text-colored pb-2">Fale conosco</h2>
+                    <div class="row">
+                        <div class="col-md-7 mb-5">
+                            <form>
+                                <div class="mb-3">
+                                    <label class="form-lavel fw-bold text-colored" for="nome">Seu nome</label>
+                                    <input type="text" id="nome" class="form-control" required>
+                                </div>
+                                <div class="mb-3">
+                                    <label class="form-lavel fw-bold text-colored" for="email">Seu email</label>
+                                    <input type="email" id="email" class="form-control" required>
+                                </div>
+                                <div class="mb-3">
+                                    <label class="form-lavel fw-bold text-colored" for="telefone">Seu telefone (opcional)</label>
+                                    <input type="tel" id="telefone" class="form-control">
+                                </div>
+                                <div class="mb-3">
+                                    <label class="form-lavel fw-bold text-colored" for="text">Sua mensagem</label>
+                                    <textarea id="mensagem" class="form-control"></textarea>
+                                </div>
+                                <button type="submit" class="btn btn-outline-dark fw-bold">Enviar</button>
+                            </form>
+                        </div>
+                            <div class="col mt-4">
+                                <h3 class="section-title fs-4 text-colored">
+                                    <i class="bi bi-cursor-fill"></i>
+                                    Endereço
+                                </h3>
+                                <p>
+                                    Rua Arthur Morgan, 1863 - Saint-Denis 0005-506
+                                </p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-            </article>
-        </section>
+            </section>
+        </div>
     </div>
-
     <footer>
         <div class="container">
             <p>&copy; 2023 Todos os direitos reservados </p>
