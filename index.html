@@ -21,7 +21,7 @@
             <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <nav class="navbar-collapse collapse justify-content-end" id="menu">
+            <nav class="navbar-collapse collapse justify-content-end" id="#menu">
                 <ul class="nav nav-pills d-block d-md-flex">
                     <li class="nav-item me-3">
                         <a href="#sobre" class="nav-link active">Sobre o restaurante</a>
@@ -68,7 +68,7 @@
         </section>
 
 
-        <div id="sobre" class="pt-5 pb-5">
+        <div id="sobre-a-loja" class="pt-5 pb-5">
             <div class="container">
                 <div class="row">
                     <div class="col-md-5">
@@ -189,7 +189,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="tab-pane active" id="drinks-gelados">
+                            <div class="tab-pane" id="drinks-gelados">
                                 <div class="row">
                                     <div class="col-md-3">
                                         <img class="d-block" src="images/cardapio/drink-gelado-2.jpg"
@@ -223,7 +223,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="tab-pane active" id="lanches">
+                            <div class="tab-pane" id="lanches">
                                 <div class="row">
                                     <div class="col-md-3">
                                         <img class="d-block" src="images/cardapio/food 1.jpg" alt="Torrada com frutas">
@@ -285,10 +285,9 @@
                             </div>
                             <div class="mb-3">
                                 <label class="form-label fw-bold" for="telefone">Celular (opcional)</label>
-                                <input type="tel" id="telefone" class="form-control">
+                                <input type="text" id="telefone" class="form-control">
                             </div>
                             <div class="mb-3">
-                                <label class="form-label fw-bold" for="nome">Seu nome</label>
                                 <textarea id="mensagem" class="form-control">Sua mensagem</textarea>
                             </div>
                             <button type="submit" class="button fw-bold">Enviar</button>
@@ -337,7 +336,12 @@
     </div>
     <footer> &copy; Todos os direitos reservados </footer>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="./plugin-js/jquery.mask.min.js"></script>
+    <script src="./plugin-js/jquery.validate.min.js"></script>
+    <script src="./plugin-js/messages_pt_BR.min.js"></script>
+    <script src="javascript.js"></script>
 </body>
 
 </html>

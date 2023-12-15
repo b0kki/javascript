@@ -11,7 +11,7 @@ header h1 {
 .nav .nav-link.active,
 .nav-item a:hover {
     background-color: whitesmoke;
-    color:  rgb(49, 77, 55);
+    color: rgb(49, 77, 55);
 }
 
 .nav-item a {
@@ -54,13 +54,13 @@ body {
 }
 
 #cardapio .nav .nav-link.active,
-#cardapio .nav-item a:hover  {
+#cardapio .nav-item a:hover {
     margin: 10px 0;
     background-color: rgba(40, 58, 44, 0.76);
     color: white;
 }
 
-#sobre {
+#sobre-a-loja {
     margin: 10px 0;
     background-color: rgba(40, 58, 44, 0.76);
     color: white;
@@ -91,7 +91,6 @@ body {
     border-radius: 5px;
     padding: 7px;
     background-color: whitesmoke;
-    
 }
 
 footer {
@@ -99,4 +98,17 @@ footer {
     padding: 15px;
     color: aliceblue;
     font-size: 16px;
+}
+
+@media (max-width: 820px) {
+
+    .carousel-inner {
+        height: 100%;
+        align-items: center;
+    }
+
+    .container {
+        width: 100%;
+        padding: 5px;
+    }
 }
