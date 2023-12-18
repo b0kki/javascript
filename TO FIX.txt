@@ -1,6 +1,5 @@
 ### BUGS
 
 - menu nav
-- section cardápio
 - validação
 - toggler-icon não funciona

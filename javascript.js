@@ -15,9 +15,6 @@ $(document).ready(function () {
             }
         },
         messages: {
-            nome: 'Insira seu nome'
-        },
-        messages: {
             mensagem: 'Escreva uma mensagem'
         },
         submitHandler: function (form) {
