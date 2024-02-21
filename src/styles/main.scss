@@ -5,21 +5,56 @@
     margin: 0 auto;
     box-sizing: border-box;
     color: variables.$textColor;
+    list-style: none;
+}
+
+body {
     background-color: variables.$bgColor;
 }
 
+
 .container {
     width: 1024px;
-    margin-top: 30vh;
+    margin-top: 20vh;
+    position: relative;
 
-    h1 {
+    &__countdown {
+        position: absolute;
+        z-index: 1;
+        background-color: transparent;
+        font-size: 50px;
+        left: 0;
+        right: 0;
         text-align: center;
-        margin-bottom: 40px;
+        margin-top: 100px;
+        letter-spacing: 4px;
+        word-spacing: 14px;
+
+        span {
+            font-family: "Kdam Thmor Pro", sans-serif;
+        }
+    }
+
+    &__title {
+        display: block;
+        text-align: center;
+
+        img {
+            width: 100px;
+            margin-bottom: 20px;
+        }
+
+        h1 {
+            margin-bottom: 40px;
+            font-size: 44px;
+            font-family: 'Times New Roman', Times, serif
+        }
     }
 
     &__image {
         height: 300px;
         position: relative;
+        background-image: url(../bg-image.jpg);
 
         &::before {
             content: '';
@@ -34,6 +69,58 @@
             max-height: 100%;
             width: 100%;
             object-fit: cover;
+
+        }
+    }
+
+    &__infos-bar {
+        margin-top: 20px;
+        font-family: "Roboto", sans-serif;
+        background-color: rgb(105, 66, 66);
+        padding: 20px;
+
+        &__infos {
+            display: flex;
+        }
+    }
+
+    @media (max-width: 670px) {
+        width: 670px;
+        max-width: 100%;
+        margin-top: 5vh;
+
+        &__title {
+            h1 {
+                font-size: 40px;
+            }
+        }
+
+        &__countdown {
+            font-size: 35px;
+            margin-top: 120px;
+            letter-spacing: 2px;
+        }
+
+        &__infos-bar {
+            &__infos {
+                display: block;
+                text-align: center;
+
+                &__item {
+                    margin-bottom: 10px;
+                }
+            }
+        }
+    }
+
+    @media (max-width: 1024px) {
+        max-width: 100%;
+        margin-top: 10vh;
+        
+        &__title {
+            h1 {
+                font-size: 35px;
+            }
         }
     }
 }

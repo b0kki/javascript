@@ -1,6 +1,6 @@
 AOS.init();
 
-const dataEvento = new Date("Apr 13, 2024 00:00:00");
+const dataEvento = new Date("Apr 13, 2024 20:00:00");
 const timeStamp = dataEvento.getTime();
 
 const timeCount = setInterval(function () {
@@ -18,7 +18,8 @@ const timeCount = setInterval(function () {
     const minsToEvent = Math.floor(eventDay % hourMS / (minMS))
     const secToEvent = Math.floor((eventDay % minMS) / 1000);
 
-    document.getElementById("countdown").innerHTML = `${daysToEvent}d ${hoursToEvent}g ${minsToEvent}m ${secToEvent}s`
+    document.getElementById('countdown').style.background="transparent";
+    document.getElementById("countdown").innerHTML = `${daysToEvent}d ${hoursToEvent}h ${minsToEvent}m ${secToEvent}s`
 
     if (eventDay < 0) {
         clearInterval(timeCount);
