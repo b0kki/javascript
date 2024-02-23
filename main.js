@@ -1,7 +1,6 @@
 
 
     document.addEventListener('DOMContentLoaded', function () {
-
         const Ename = document.querySelector('#name');
         const Eusername = document.querySelector('#username');
         const Eavatar = document.querySelector('#avatar');
@@ -15,12 +14,12 @@
                 return res.json();
             })
             .then(function (json) {
-                Efollowers.innertText = json.followers;
-                Efollowing.innertText = json.following;
-                Ename.innertText = json.name;
-                Eusername.innertText = json.login;
+                Efollowers.innerText = json.followers;
+                Efollowing.innerText = json.following;
+                Ename.innerText = json.name;
+                Eusername.innerText = json.login;
                 Eavatar.src = json.avatar_url;
-                Erepository.innertText = json.public_repos;
+                Erepository.innerText = json.public_repos;
                 Elink.href = json.html_url;
             })
     })
