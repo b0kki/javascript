@@ -14,5 +14,7 @@ const result = media.filter(function (aluno) {
     return aluno.nota >= 6;
 })
 
+const alunosnotas = result.forEach(aluno => {
+    console.log(`Os seguintes alunos estão dentro/acima da média: ${aluno.nome}`)
+});
 
-console.log(`Os seguintes alunos estão dentro/acima da média: ${result}`)
