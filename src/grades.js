@@ -2,16 +2,16 @@ const student = ['jao', 'fabio', 'jaqueline', 'marcia']
 const grades = [9, 4, 5, 8]
 
 
-const medias = student.map(function (item, index) {
+const media = student.map(function (item, index) {
     return {
         nome: item,
-        nota: grades[index]
+        nota: grades[index],
     }
 })
 
 
-const result = grades.filter(function (nota) {
-    return nota >= 6;
+const result = media.filter(function (aluno) {
+    return aluno.nota >= 6;
 })
 
 
