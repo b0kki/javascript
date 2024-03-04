@@ -9,8 +9,8 @@ class Fulaninho {
         this.nome = nome;
     }
 
-    dizSalve(dizSalve:string): string {
-        return (dizSalve + `Salveee ${this.nome}!`)
+    dizSalve(oi:string): string {
+        return (oi + `Salveee ${this.nome}!`)
     }
 }
 

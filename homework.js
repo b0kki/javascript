@@ -6,7 +6,7 @@ class Fulaninho {
     constructor(nome) {
         this.nome = nome;
     }
-    dizSalve(dizSalve) {
-        return (dizSalve + `Salveee ${this.nome}!`);
+    dizSalve(oi) {
+        return (oi + `Salveee ${this.nome}!`);
     }
 }
