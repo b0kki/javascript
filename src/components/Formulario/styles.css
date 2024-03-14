@@ -25,6 +25,7 @@ h1{
 input {
     border: none;
     background-color: #fff;
+    color: rgb(84, 84, 202);
     padding: 10px;
     margin-right: 20px;
     margin-bottom: 10px;
