@@ -1,0 +1,11 @@
+# informa configuração principal caso haja mais de um config
+root = true
+
+# informa que a formatação é para todos os arquivos
+[*]
+indent_style =  space
+indent_size = 2
+end_of_line = lf
+charset = utf-8
+trim_trailing_whitespace = true
+insert_final_newline = true
