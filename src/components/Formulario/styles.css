@@ -13,9 +13,10 @@
     background-color: rgb(84, 84, 202);
 }
 
-form {
+form, h4 {
     margin-top: 20px;
     text-align: center;
+    font-weight: lighter;
 }
 
 h1{
