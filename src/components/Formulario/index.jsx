@@ -16,9 +16,9 @@ const Formulario = () => {
     } else if (result >= 25 && result <= 29) {
       setResult(`Seu IMC é ${result}. Você está com obesidade grau I`);
     } else if (result >= 30 && result <= 39) {
-      setResult(`Seu IMC é ${result}. Você está com pbesidade grau II`);
+      setResult(`Seu IMC é ${result}. Você está com obesidade grau II`);
     } else {
-      setResult(`Seu IMC é ${result}.Você está com pbesidade grau III`);
+      setResult(`Seu IMC é ${result}. Você está com obesidade grau III`);
     }
   };
 
@@ -31,12 +31,12 @@ const Formulario = () => {
       <form>
         <h1>Calcule seu IMC</h1>
         <input
-          onChange={({ target }) => setWeight(parseInt(target.value))}
+          onChange={({ target }) => setWeight(parseFloat(target.value))}
           type="number"
           placeholder="Digite seu peso"
         />
         <input
-          onChange={({ target }) => setHeight(parseInt(target.value))}
+          onChange={({ target }) => setHeight(parseFloat(target.value))}
           type="number"
           placeholder="Digite sua altura"
         />
